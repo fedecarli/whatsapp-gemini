@@ -1,0 +1,23 @@
+{
+  "name": "wpprobot",
+  "version": "1.0.0",
+  "description": "whatsapp bot",
+  "main": "robo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node robo.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.13.0",
+    "@wppconnect-team/wppconnect": "^1.32.2",
+    "dotenv": "^16.4.5",
+    "openai": "^4.51.0"
+  },
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
