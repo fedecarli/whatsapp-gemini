@@ -14,10 +14,8 @@ const model = genAI.getGenerativeModel({ model: 'gemini-pro' });
 const activeChats = new Map();
 
 const getOrCreateChatSession = (chatId) => {
-  console.log('activeChats.has(chatId)', activeChats.has(chatId));
   if (activeChats.has(chatId)) {
     const currentHistory = activeChats.get(chatId);
-    console.log({ currentHistory, chatId });
     return model.startChat({
       history: currentHistory,
     });

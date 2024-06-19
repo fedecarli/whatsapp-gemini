@@ -2,10 +2,10 @@
   "name": "wpprobot",
   "version": "1.0.0",
   "description": "whatsapp bot",
-  "main": "robo.js",
+  "main": "robot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node robo.js"
+    "start": "node robot.js"
   },
   "author": "",
   "license": "ISC",
